@@ -1,0 +1,27 @@
+@import "./variables.css";
+
+@mixin flexCenter {
+    background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 100vh;
+  //   ***** Instead of writing this manually for several times we can call it as a function like javascript with "@mixin"
+  @include flexCenter();
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  button {
+    background-color: $primaryBtnClr;
+  }
+}
+
+.header h1 {
+  background-color: rgb(143, 57, 223);
+  display: flex;
+  justify-content: center;
+  color: wheat;
+}

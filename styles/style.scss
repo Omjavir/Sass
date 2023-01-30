@@ -1,0 +1,34 @@
+// ***** We can also import variables and a particular part ******
+// @import "./form";
+// @import "./variables";
+// @import "./header";
+// $primaryBtnClr: rgb(231, 18, 209);
+
+// h1 {
+//   background-color: rgb(143, 57, 223);
+//   display: flex;
+//   justify-content: center;
+//   color: wheat;
+// }
+
+// h1 button {
+//   // ***** Instead of writing in manually we can we variable like javascript *****
+//   //   background-color: rgb(231, 18, 209);
+//   background-color: $primaryBtnClr;
+// }
+
+// form button {
+//   background-color: $primaryBtnClr;
+// }
+
+// ***** We can also import this part from another file *****
+// form {
+//     background-color: aquamarine;
+//     button {
+//       border: 2px solid black;
+//       color: wheat;
+//       &:hover{
+//           background-color: red;
+//       }
+//     }
+//   }
